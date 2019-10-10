@@ -1,0 +1,136 @@
+[2019-09-18 06:50:50,445][ERROR][/var/src/STEPS/src/steps/model/volsys.cpp:268][void steps::model::Volsys::_checkReacID(const string&) const]: ArgErr: 'kreac_f' is already in use 
+[2019-09-18 14:33:16,820][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:491][uint steps::solver::Statedef::getCompIdx(const string&) const]: ArgErr: Geometry does not contain comp with string identifier 'vsys'. 
+[2019-09-19 07:30:10,014][ERROR][/var/src/STEPS/src/steps/util/checkid.cpp:63][void steps::util::checkID(const string&)]: ArgErr: 'PV-Ca' is not a valid id. 
+[2019-09-20 04:18:19,981][ERROR][/var/src/STEPS/src/steps/model/reac.cpp:134][void steps::model::Reac::setLHS(const std::vector<steps::model::Spec*>&)]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-20 14:15:32,606][ERROR][/var/src/STEPS/src/steps/model/volsys.cpp:268][void steps::model::Volsys::_checkReacID(const string&) const]: ArgErr: 'kreac_f_PV_Ca' is already in use 
+[2019-09-20 14:40:04,557][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:577][uint steps::solver::Statedef::getSpecIdx(const string&) const]: ArgErr: Model does not contain species with string identifier 'CB'. 
+[2019-09-20 14:52:08,531][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:444][virtual void steps::wmdirect::Wmdirect::_setCompCount(uint, uint, double)]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-20 15:18:03,260][ERROR][/var/src/STEPS/src/steps/model/reac.cpp:134][void steps::model::Reac::setLHS(const std::vector<steps::model::Spec*>&)]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-21 05:19:50,643][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'CBhi_Ca' is already in use 
+[2019-09-21 05:20:18,916][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'CBhi_Ca' is already in use 
+[2019-09-21 05:20:51,928][ERROR][/var/src/STEPS/src/steps/model/volsys.cpp:268][void steps::model::Volsys::_checkReacID(const string&) const]: ArgErr: 'kreac_f_CBhi_Ca' is already in use 
+[2019-09-21 05:29:22,514][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:620][uint steps::solver::Statedef::getReacIdx(const string&) const]: ArgErr: Model does not contain reac with string identifier 'kreac_f'. 
+[2019-09-21 05:29:59,632][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:620][uint steps::solver::Statedef::getReacIdx(const string&) const]: ArgErr: Model does not contain reac with string identifier 'kreac_f'. 
+[2019-09-21 05:38:02,871][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-21 05:38:14,982][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 12:27:55,396][ERROR][/var/src/STEPS/src/steps/model/volsys.cpp:268][void steps::model::Volsys::_checkReacID(const string&) const]: ArgErr: 'kreac_f_CRRR1_2Ca' is already in use 
+[2019-09-24 12:32:46,337][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:577][uint steps::solver::Statedef::getSpecIdx(const string&) const]: ArgErr: Model does not contain species with string identifier 'CRTT'. 
+[2019-09-24 12:33:14,332][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:577][uint steps::solver::Statedef::getSpecIdx(const string&) const]: ArgErr: Model does not contain species with string identifier 'CRTT'. 
+[2019-09-24 12:39:32,677][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:41:38,660][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:42:31,158][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:42:42,234][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:43:28,977][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:43:34,158][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:50:06,277][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:57:55,568][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 13:58:27,283][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 14:03:50,642][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-24 14:13:17,425][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-24 14:14:32,840][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 14:16:32,849][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 14:16:46,187][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 14:20:52,159][ERROR][/var/src/STEPS/src/steps/model/volsys.cpp:268][void steps::model::Volsys::_checkReacID(const string&) const]: ArgErr: 'kreac_f_CRTT1_Ca' is already in use 
+[2019-09-24 14:23:49,158][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-24 14:24:14,825][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-24 14:25:58,917][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-24 14:26:11,495][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-24 14:28:58,695][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-24 14:39:52,597][ERROR][/var/src/STEPS/src/steps/model/volsys.cpp:268][void steps::model::Volsys::_checkReacID(const string&) const]: ArgErr: 'kreac_f_CRTT1_Ca' is already in use 
+[2019-09-24 14:39:52,964][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'SERCA_Ca_flux' is already in use 
+[2019-09-24 14:40:06,842][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-09-24 14:56:53,601][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'SERCA_Ca_flux' is already in use 
+[2019-09-30 11:21:30,057][ERROR][/var/src/STEPS/src/steps/model/volsys.cpp:268][void steps::model::Volsys::_checkReacID(const string&) const]: ArgErr: 'kreac_f_CRTT1_Ca' is already in use 
+[2019-09-30 12:05:19,687][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 12:05:28,803][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 12:05:36,252][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 12:15:51,817][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'SERCA_Ca_flux' is already in use 
+[2019-09-30 12:17:21,200][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:516][steps::solver::Patchdef* steps::solver::Statedef::patchdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 12:17:26,879][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:516][steps::solver::Patchdef* steps::solver::Statedef::patchdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 12:17:35,464][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:516][steps::solver::Patchdef* steps::solver::Statedef::patchdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 12:17:37,891][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 13:37:51,632][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'Ca' is already in use 
+[2019-09-30 13:41:57,266][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 13:45:32,908][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-09-30 14:04:14,533][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 00:27:19,383][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'PMCA' is already in use 
+[2019-10-01 00:27:28,499][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'PMCA' is already in use 
+[2019-10-01 00:27:50,179][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'Ca' is already in use 
+[2019-10-01 00:29:25,535][ERROR][/var/src/STEPS/src/steps/model/sreac.cpp:92][steps::model::SReac::SReac(const string&, steps::model::Surfsys*, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, double)]: ArgErr: Volume lhs species must belong to either inner or outer compartment, not both. 
+[2019-10-01 00:30:25,013][ERROR][/var/src/STEPS/src/steps/model/sreac.cpp:92][steps::model::SReac::SReac(const string&, steps::model::Surfsys*, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, double)]: ArgErr: Volume lhs species must belong to either inner or outer compartment, not both. 
+[2019-10-01 00:33:06,531][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'SERCA_Ca_flux' is already in use 
+[2019-10-01 00:33:17,571][ERROR][/var/src/STEPS/src/steps/model/sreac.cpp:92][steps::model::SReac::SReac(const string&, steps::model::Surfsys*, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, double)]: ArgErr: Volume lhs species must belong to either inner or outer compartment, not both. 
+[2019-10-01 00:33:49,602][ERROR][/var/src/STEPS/src/steps/model/sreac.cpp:92][steps::model::SReac::SReac(const string&, steps::model::Surfsys*, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, const std::vector<steps::model::Spec*>&, double)]: ArgErr: Volume lhs species must belong to either inner or outer compartment, not both. 
+[2019-10-01 00:37:36,713][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'SERCA_Ca_flux' is already in use 
+[2019-10-01 00:38:01,913][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'Ca' is already in use 
+[2019-10-01 00:49:02,514][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'SERCA_Ca_flux' is already in use 
+[2019-10-01 00:51:07,821][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 00:59:15,218][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 01:00:45,832][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 01:01:05,856][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 01:08:44,019][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 01:33:47,830][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 01:34:01,802][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 01:37:00,595][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 02:01:58,939][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 02:02:19,100][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 02:50:41,172][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:426][virtual double steps::wmdirect::Wmdirect::_getCompCount(uint, uint) const]: ArgErr: Species undefined in compartment.
+ 
+[2019-10-01 02:55:22,496][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:534][uint steps::solver::Statedef::getPatchIdx(const string&) const]: ArgErr: Geometry does not contain patch with string identifier 'ER'. 
+[2019-10-01 03:09:00,777][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 03:10:37,016][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 03:10:52,527][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 03:11:20,375][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:516][steps::solver::Patchdef* steps::solver::Statedef::patchdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 03:12:13,468][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:516][steps::solver::Patchdef* steps::solver::Statedef::patchdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 03:14:38,543][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:534][uint steps::solver::Statedef::getPatchIdx(const string&) const]: ArgErr: Geometry does not contain patch with string identifier 'ER'. 
+[2019-10-01 03:14:49,638][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:534][uint steps::solver::Statedef::getPatchIdx(const string&) const]: ArgErr: Geometry does not contain patch with string identifier 'ER'. 
+[2019-10-01 03:22:52,607][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:811][virtual double steps::wmdirect::Wmdirect::_getPatchCount(uint, uint) const]: ArgErr: Species undefined in patch.
+ 
+[2019-10-01 03:25:09,926][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 03:25:23,656][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 03:43:39,029][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 04:51:30,095][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:444][virtual void steps::wmdirect::Wmdirect::_setCompCount(uint, uint, double)]: ArgErr: Species undefined in compartment.
+ 
+[2019-10-01 04:51:42,725][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:444][virtual void steps::wmdirect::Wmdirect::_setCompCount(uint, uint, double)]: ArgErr: Species undefined in compartment.
+ 
+[2019-10-01 05:28:28,264][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:811][virtual double steps::wmdirect::Wmdirect::_getPatchCount(uint, uint) const]: ArgErr: Species undefined in patch.
+ 
+[2019-10-01 05:37:48,452][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:811][virtual double steps::wmdirect::Wmdirect::_getPatchCount(uint, uint) const]: ArgErr: Species undefined in patch.
+ 
+[2019-10-01 08:43:23,275][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 08:43:37,393][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 08:43:46,168][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 08:43:52,068][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 09:27:30,469][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 09:46:42,504][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 09:47:04,881][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:558][steps::solver::Specdef* steps::solver::Statedef::specdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-01 09:49:39,775][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:472][steps::solver::Compdef* steps::solver::Statedef::compdef(uint) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-08 04:28:49,199][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'NCX_Ca' is already in use 
+[2019-10-08 04:28:57,558][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'NCX_Ca' is already in use 
+[2019-10-08 04:29:13,031][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'Ca' is already in use 
+[2019-10-08 05:59:27,009][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'SERCA_X0Ca' is already in use 
+[2019-10-08 06:04:43,443][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'ser_y2y1' is already in use 
+[2019-10-08 06:05:00,564][ERROR][/var/src/STEPS/src/steps/model/surfsys.cpp:385][void steps::model::Surfsys::_checkSReacID(const string&) const]: ArgErr: 'ser_y2y1' is already in use 
+[2019-10-08 06:58:40,000][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'NCX' is already in use 
+[2019-10-08 07:07:52,352][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'NCX_P0' is already in use 
+[2019-10-08 07:08:17,456][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'SERCA_X0Ca' is already in use 
+[2019-10-08 07:08:36,295][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:444][virtual void steps::wmdirect::Wmdirect::_setCompCount(uint, uint, double)]: ArgErr: Species undefined in compartment.
+ 
+[2019-10-08 07:09:24,465][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:830][virtual void steps::wmdirect::Wmdirect::_setPatchCount(uint, uint, double)]: ArgErr: Species undefined in patch.
+ 
+[2019-10-08 07:20:53,474][ERROR][/var/src/STEPS/src/steps/model/model.cpp:214][steps::model::Surfsys* steps::model::Model::getSurfsys(const string&) const]: ArgErr: Model does not contain surface system with name 'memb' 
+[2019-10-08 08:07:14,684][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:568][uint steps::solver::Statedef::getSpecIdx(const string&) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-08 08:09:43,791][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'CBhi' is already in use 
+[2019-10-08 08:10:29,568][ERROR][/var/src/STEPS/src/steps/solver/statedef.cpp:568][uint steps::solver::Statedef::getSpecIdx(const string&) const]: Assertion failed, please send the log files under .logs/ to developer. 
+[2019-10-08 09:02:39,537][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'NCX_P0' is already in use 
+[2019-10-08 09:04:55,645][ERROR][/var/src/STEPS/src/steps/model/model.cpp:237][void steps::model::Model::_checkSpecID(const string&) const]: ArgErr: 'NCX_P0' is already in use 
+[2019-10-08 09:11:43,080][ERROR][/var/src/STEPS/src/steps/wmdirect/wmdirect.cpp:830][virtual void steps::wmdirect::Wmdirect::_setPatchCount(uint, uint, double)]: ArgErr: Species undefined in patch.
+ 

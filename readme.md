@@ -8,5 +8,5 @@ To run the model you will need `super_batch.sh`, `bt_serial.sh`, `cu.sh` and `Ca
 * after the jobs are complete, run `cu.sh`. It will clean up unnecessary dumps, and tar all the needed pickle files containing the output data.
 * download the `dump.tar.gz` to you local machine, unpack and plot the results using `Ca_Buffer_GHK.ipynb`.
 
-![Image description]('dyn.svg')
+![Figure](dyn.svg)
 
